@@ -44,6 +44,15 @@ Once installed:
 
 ---
 
+📚 Educational Purpose
+
+⚠️ Note
+
+This project was created for educational purposes only.
+I am still a beginner in programming, and this modification was made as a learning exercise.
+
+---
+
 ## Credits
 
 This plugin is based on the original work by **Decartertod**:
