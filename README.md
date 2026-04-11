@@ -30,6 +30,8 @@ This is a modified version of the Zotero Preview plugin, updated to work seamles
 
 This plugin adds a **Preview tab** in Zotero that displays a citation preview for the selected item using your chosen bibliographic style.
 
+<img width="1924" height="1120" alt="ZoteroPreview9" src="https://github.com/user-attachments/assets/7968eadf-8f0c-48c5-ab05-64bc3c875681" />
+
 ---
 
 ## 🆕 What's New in This Version
