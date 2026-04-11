@@ -1,15 +1,18 @@
 {
-  "manifest_version": 2,
-  "name": "ZoteroPreview",
-  "version": "1.0.1",
-  "description": "Citation preview pane for Zotero.",
-  "homepage_url": "https://github.com/DjebbKhaled/ZoteroPreview9",
-  "applications": {
-    "zotero": {
-      "id": "zoteropreview",
-      "update_url": "https://raw.githubusercontent.com/DjebbKhaled/ZoteroPreview9/refs/heads/main/ZoteroPreview9/manifest.json",
-      "strict_min_version": "6.999",
-      "strict_max_version": "9.*"
+  "addons": {
+    "zoteropreview": {
+      "updates": [
+        {
+          "version": "1.0.2",
+          "update_link": "https://github.com/DjebbKhaled/ZoteroPreview8/releases/download/v1.0.2-zotero9/ZoteroPreview9.xpi",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "6.999",
+              "strict_max_version": "9.*"
+            }
+          }
+        }
+      ]
     }
   }
 }
