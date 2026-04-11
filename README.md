@@ -28,11 +28,7 @@ This is a modified version of the Zotero Preview plugin, updated to work seamles
 
 ## 🚀 Usage
 
-Once installed:
-
-* Select an item with an attachment.
-* The preview pane will display the file automatically.
-* Use it to quickly inspect documents without opening external viewers.
+This plugin adds a **Preview tab** in Zotero that displays a citation preview for the selected item using your chosen bibliographic style.
 
 ---
 
