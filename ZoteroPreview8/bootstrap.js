@@ -58,18 +58,20 @@ function removeFromAllWindows() {
 	var windows = Zotero.getMainWindows();
 	for (let win of windows) {
 		if (!win.ZoteroPane) continue;
-		this.removeFromWindow(win);
+		removeFromWindow(win);
 	}
 }
 
 function shutdown() {
 	log("Shutting down ");
-	Zotero.Notifier.unregisterObserver(this._notifierID);
-	this.removeFromAllWindows();
+	if (Zotero.zoteropreview && Zotero.zoteropreview._notifierID) {
+		Zotero.Notifier.unregisterObserver(Zotero.zoteropreview._notifierID);
+	}
+	removeFromAllWindows();
 	Zotero.zoteropreview = undefined;
 }
 
 function uninstall() {
-	this.shutdown();
+	shutdown();
 	log("Uninstalled ");
 }
