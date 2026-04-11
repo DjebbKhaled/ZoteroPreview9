@@ -1,6 +1,6 @@
-# Zotero Preview (Zotero 8 Compatible)
+# Zotero Preview (Zotero 9 Compatible)
 
-This is a modified version of the Zotero Preview plugin, updated to work seamlessly with **Zotero 8**.
+This is a modified version of the Zotero Preview plugin, updated to work seamlessly with **Zotero 9**.
 
 > ⚠️ This is **not the original plugin**. It is an adaptation to maintain compatibility with newer Zotero versions.
 
@@ -10,7 +10,7 @@ This is a modified version of the Zotero Preview plugin, updated to work seamles
 
 * 📄 Inline preview of attachments (PDF, EPUB, etc.)
 * ⚡ Fast and lightweight preview panel
-* 🔄 Fully adapted for **Zotero 8**
+* 🔄 Fully adapted for **Zotero 9**
 * 🧩 Simple integration with existing Zotero workflows
 
 ---
@@ -38,7 +38,7 @@ Once installed:
 
 ## 🆕 What's New in This Version
 
-* ✅ Updated for full compatibility with **Zotero 8**
+* ✅ Updated for full compatibility with **Zotero 9**
 * 🛠 Fixed deprecated APIs and UI changes
 * ⚙️ Improved stability and performance
 
