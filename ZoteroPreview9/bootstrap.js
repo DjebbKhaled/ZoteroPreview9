@@ -19,7 +19,7 @@ async function startup({ id, version, rootURI }) {
 	Services.scriptloader.loadSubScript(rootURI + 'zoteropreview.js');
 
 	Zotero.PreferencePanes.register({
-		pluginID: 'zoteropreview@carter-tod.com',
+		pluginID: id,
 		src: rootURI + 'prefs.xhtml',
 		scripts: [rootURI + 'zoteropreview_prefs.js']
 	});
