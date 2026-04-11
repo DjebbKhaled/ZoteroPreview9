@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "ZoteroPreview",
+  "name": "ZoteroPreview9",
   "version": "1.0.1",
   "description": "Citation preview pane for Zotero.",
   "homepage_url": "https://github.com/DjebbKhaled/ZoteroPreview9",
   "applications": {
     "zotero": {
       "id": "zoteropreview",
-      "update_url": "https://raw.githubusercontent.com/dcartertod/zotero-plugins/main/ZoteroPreview7/zoteropreview7-updates.json",
+      "update_url": "https://raw.githubusercontent.com/DjebbKhaled/ZoteroPreview9/refs/heads/main/ZoteroPreview8/manifest.json",
       "strict_min_version": "6.999",
       "strict_max_version": "9.*"
     }
